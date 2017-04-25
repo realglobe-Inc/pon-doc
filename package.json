@@ -1,6 +1,6 @@
 {
   "name": "pon-doc",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Document parser for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -42,8 +42,5 @@
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
