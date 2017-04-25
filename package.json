@@ -1,6 +1,6 @@
 {
   "name": "pon-doc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Document parser for pon",
   "main": "lib",
   "browser": "shim/browser",
