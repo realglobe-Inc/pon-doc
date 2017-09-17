@@ -74,10 +74,10 @@ Usage
 ```javascript
 'use strict'
 
-const { functionComments } = require('pon-doc')
+const {functionComments} = require('pon-doc')
 
 {
-  let comments = functionComments('lib/my-file.js')
+  const comments = functionComments('lib/my-file.js')
   console.log(comments) // -> Parsed function jsdoc comments
 }
 

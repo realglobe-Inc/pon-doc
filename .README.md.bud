@@ -4,7 +4,7 @@
 
 'use strict'
 
-const { readmeMdBud } = require('ape-tmpl')
+const {readmeMdBud} = require('ape-tmpl')
 const pkg = require('./package.json')
 const functionComments = require('./lib/function_comments')
 const aglob = require('aglob')
@@ -25,7 +25,7 @@ module.exports = readmeMdBud({
       .filter((filename) => !/index\.js$/.test(filename))
       .map((filename) => {
         let comments = functionComments(filename)
-        return comments && comments[ 0 ]
+        return comments && comments[0]
       })
   }
 })
